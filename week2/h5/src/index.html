@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" charset="utf-8">
+        mui.init();
+    </script>
+</head>
+
+<body>
+    <div class="box">
+        <div class="left">
+            <div class="tab">
+                <div class="bt">
+                    <span class="active">收入</span><span>支出</span>
+                </div>
+                <div class="inn">
+
+                    <div class="je">
+                        金额<br>
+                        <input type="text">
+                    </div>
+                    <div class="sj">
+                        时间<br>
+                        <input type="text">
+                    </div>
+                    <div class="bz">
+                        备注<br>
+                        <input type="text">
+                    </div>
+                    <div class="fl">
+                        分类<br>
+                        <select name="" id="fenlei">
+                                <option value="食">食</option>
+                                <option value="娱乐">娱乐</option>
+                                <option value="其他">其他</option>
+                                <option value="事件">事件</option>
+                                <option value="时间">时间</option>
+                            </select>
+                    </div>
+                    <div class="cy">
+                        成员<br>
+                        <select name="" id="chengyuan">
+                                <option value="恋人">恋人</option>
+                                <option value="父母">父母</option>
+                                <option value="朋友">朋友</option>
+                                <option value="同学">同学</option>
+                                <option value="同事">同事</option>
+                            </select>
+                    </div>
+                </div>
+                <button>确定</button>
+            </div>
+        </div>
+        <div class="right">
+            <table>
+                <tr>
+                    <td>日期</td>
+                    <td>分类</td>
+                    <td>金额</td>
+                    <td>成员</td>
+                    <td>备注</td>
+                </tr>
+            </table>
+            <table class="inner">
+
+                <!-- <tr>
+                    <td>2019-04-17</td>
+                    <td>杂</td>
+                    <td>-2000.00</td>
+                    <td>恋人</td>
+                    <td>包</td>
+                </tr>
+                <tr>
+                    <td>2019-04-17</td>
+                    <td>杂</td>
+                    <td>-2000.00</td>
+                    <td>恋人</td>
+                    <td>包</td>
+                </tr>
+                <tr>
+                    <td>2019-04-17</td>
+                    <td>杂</td>
+                    <td>-2000.00</td>
+                    <td>恋人</td>
+                    <td>包</td>
+                </tr>
+                <tr>
+                    <td>2019-04-17</td>
+                    <td>杂</td>
+                    <td>-2000.00</td>
+                    <td>恋人</td>
+                    <td>包</td>
+                </tr> -->
+            </table>
+        </div>
+    </div>
+</body>
+<script src="js/require.js" async defer data-main="js/index.js"></script>
+
+</html>
